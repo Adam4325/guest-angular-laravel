@@ -13,7 +13,7 @@
 
 Route::get('/guest', 'BaseController@index');
 Route::get('guest/{id}', 'BaseController@edit');
-//Route::post('guest/edit/{id}', 'BaseController@update');
+Route::post('guest/edit/{id}', 'BaseController@update');
 //Route::resource('api/guest','BaseController');
 Route::get('/', 'WelcomeController@index');
 
